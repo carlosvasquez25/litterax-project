@@ -1,15 +1,20 @@
 {
   "expo": {
-    "name": "litterax-mobile",
+    "name": "Litterax",
+    "description": "Multiplayer game based on words and power-ups. Compete against other players and unlock more minigames.",
     "slug": "litterax-mobile",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
     "scheme": "litteraxmobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "platforms": ["ios", "android"],
+    "githubUrl": "https://github.com/carlosvasquez25/litterax-project.git",
+    "primaryColor": "#00C950",
+    "icon": "./assets/images/icon.png",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.anonymous.litteraxmobile"
     },
     "android": {
       "adaptiveIcon": {
@@ -19,11 +24,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
-    },
-    "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.litteraxmobile"
     },
     "plugins": [
       "expo-router",

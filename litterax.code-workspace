@@ -7,5 +7,9 @@
 			"path": "litterax-server"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"conventionalCommits.scopes": [
+			"mobile"
+		]
+	}
 }
